@@ -1,7 +1,7 @@
 #banner{
-    background-color: red;
+    background-color:tomato;
     color: white;
-    font-family:Tahoma;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     height: 40px;
     padding: 50px;
@@ -10,9 +10,10 @@
 }
 #menu{
     float: left;
-    background: gray;
+    background: tomato;
     width: 200px;
     font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 #anasayfa{
@@ -21,21 +22,32 @@
     padding: 20px;
     margin:20px;
 }
-#hakkında{
+
+#anasayfa a{
     text-decoration: none;
+}
+#hakkında a{
+    text-decoration: none;
+}
+#iletişim a{
+    text-decoration: none;
+}
+#hakkında{
     height: 200px;
     padding: 20px;
     margin:20px;
 }
 #iletişim{
-    text-decoration: none;
     height: 200px;
     padding: 20px;
     margin:20px;
 }
 #icerik{
-    background-color: gray;
     padding: 10px;
     font-size: 14px;
     text-align: justify;
+}
+#metin{
+    background-color:turquoise;
+    color: purple;
 }
